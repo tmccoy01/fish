@@ -11,6 +11,8 @@ set -x PATH $DENO_INSTALL/bin:$PATH
 
 thefuck --alias | source
 
+bass source ~/.config/fish/scripts/prettytable.sh
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 if test -f /Users/tannermccoy/Development/anaconda3/bin/conda

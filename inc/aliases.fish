@@ -10,6 +10,9 @@ alias ff="code ~/.config/fish/config.fish"
 # Rick Roll in terminal
 alias rr="curl -s -L https://raw.githubusercontent.com/keroserene/rickrollrc/master/roll.sh | bash"
 
+# Pipe animation in terminal
+alias pipe="node ~/.config/fish/pipesjs/pipes.js -c ~/.config/fish/pipesjs/extreme.json"
+
 function dev -d 'Go to ~/Development'
     cd ~/Development
 end
